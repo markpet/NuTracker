@@ -8,6 +8,8 @@
 
 import UIKit
 
+var firstRun = true
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var roundedCornerButton: UIButton!
@@ -25,9 +27,12 @@ class ViewController: UIViewController {
         roundedCornerButton4.layer.cornerRadius = 4
         roundedCornerButton5.layer.cornerRadius = 4
         roundedCornerButton6.layer.cornerRadius = 4
+        
+        if firstRun {
+            
+        }
         // Do any additional setup after loading the view, typically from a nib.
     }
-
 
 }
 

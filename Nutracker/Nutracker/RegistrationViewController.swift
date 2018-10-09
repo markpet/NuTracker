@@ -23,6 +23,7 @@ class RegistrationViewController: UIViewController {
             name = userName.text!
             email = userEmail.text!
             referralCode = userReferralCode.text!
+            self.dismiss(animated: true, completion: nil)
         }
     }
     
