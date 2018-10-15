@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		02D4EBF7216CF488006C6A65 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D4EBF6216CF488006C6A65 /* RegistrationViewController.swift */; };
+		718723DC2174CD850000F4C5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718723DB2174CD850000F4C5 /* User.swift */; };
+		718723DE2174D2610000F4C5 /* LevelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718723DD2174D2610000F4C5 /* LevelsViewController.swift */; };
+		718723E02174D2C40000F4C5 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718723DF2174D2C40000F4C5 /* FoodViewController.swift */; };
+		718723E22174DEB70000F4C5 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718723E12174DEB70000F4C5 /* Meal.swift */; };
+		718723E42174DFCF0000F4C5 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718723E32174DFCF0000F4C5 /* Level.swift */; };
+		718723E62174E1130000F4C5 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718723E52174E1130000F4C5 /* Day.swift */; };
 		71921533216B7A0800424BF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71921532216B7A0800424BF5 /* AppDelegate.swift */; };
 		71921535216B7A0800424BF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71921534216B7A0800424BF5 /* ViewController.swift */; };
 		71921538216B7A0800424BF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71921536216B7A0800424BF5 /* Main.storyboard */; };
@@ -17,6 +23,12 @@
 
 /* Begin PBXFileReference section */
 		02D4EBF6216CF488006C6A65 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		718723DB2174CD850000F4C5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		718723DD2174D2610000F4C5 /* LevelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsViewController.swift; sourceTree = "<group>"; };
+		718723DF2174D2C40000F4C5 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		718723E12174DEB70000F4C5 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		718723E32174DFCF0000F4C5 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		718723E52174E1130000F4C5 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 		7192152F216B7A0800424BF5 /* Nutracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nutracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71921532216B7A0800424BF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71921534216B7A0800424BF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +71,13 @@
 				71921532216B7A0800424BF5 /* AppDelegate.swift */,
 				71921534216B7A0800424BF5 /* ViewController.swift */,
 				71921536216B7A0800424BF5 /* Main.storyboard */,
+				718723E12174DEB70000F4C5 /* Meal.swift */,
+				718723E32174DFCF0000F4C5 /* Level.swift */,
+				718723DF2174D2C40000F4C5 /* FoodViewController.swift */,
+				718723DD2174D2610000F4C5 /* LevelsViewController.swift */,
 				02D4EBF6216CF488006C6A65 /* RegistrationViewController.swift */,
+				718723DB2174CD850000F4C5 /* User.swift */,
+				718723E52174E1130000F4C5 /* Day.swift */,
 				71921539216B7A0A00424BF5 /* Assets.xcassets */,
 				7192153B216B7A0A00424BF5 /* LaunchScreen.storyboard */,
 				7192153E216B7A0A00424BF5 /* Info.plist */,
@@ -138,8 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				718723DC2174CD850000F4C5 /* User.swift in Sources */,
+				718723DE2174D2610000F4C5 /* LevelsViewController.swift in Sources */,
+				718723E22174DEB70000F4C5 /* Meal.swift in Sources */,
 				02D4EBF7216CF488006C6A65 /* RegistrationViewController.swift in Sources */,
 				71921535216B7A0800424BF5 /* ViewController.swift in Sources */,
+				718723E62174E1130000F4C5 /* Day.swift in Sources */,
+				718723E02174D2C40000F4C5 /* FoodViewController.swift in Sources */,
+				718723E42174DFCF0000F4C5 /* Level.swift in Sources */,
 				71921533216B7A0800424BF5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,30 +8,24 @@
 
 import UIKit
 
-var firstRun = true
+var appUser = User.init()
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var roundedCornerButton: UIButton!
-    @IBOutlet weak var roundedCornerButton2: UIButton!
-    @IBOutlet weak var roundedCornerButton3: UIButton!
-    @IBOutlet weak var roundedCornerButton4: UIButton!
-    @IBOutlet weak var roundedCornerButton5: UIButton!
-    @IBOutlet weak var roundedCornerButton6: UIButton!
+    
+    @IBAction func presetRegData(_ sender: Any) {
+        if appUser != nil {
+            appUser.userName = "Exa Mple"
+            appUser.userEmail = "nogoodname@hotmail.com"
+            appUser.referralCode = "1234"
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        roundedCornerButton.layer.cornerRadius = 4
-        roundedCornerButton2.layer.cornerRadius = 4
-        roundedCornerButton3.layer.cornerRadius = 4
-        roundedCornerButton4.layer.cornerRadius = 4
-        roundedCornerButton5.layer.cornerRadius = 4
-        roundedCornerButton6.layer.cornerRadius = 4
         
-        if firstRun {
-            
-        }
-        // Do any additional setup after loading the view, typically from a nib.
+        // TODO: Put a test for first run and load user data
+        // TODO: If first run show registrationViewController
+        // TODO: Update view to current date, load data
     }
 
 }
